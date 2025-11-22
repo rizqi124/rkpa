@@ -20,9 +20,9 @@ def fmt_num(x):
         return str(x)
     return str(int(x)) if x.is_integer() else str(x)
 
-TOKEN = "7660011004:AAE4m4IJBWUto-zCEq2eB_CJXFke-01bTnk"
+TOKEN = "8499380465:AAE6z1NkyIOmEbGWhI0icounK6xQffW5_Uk"
 bot = telebot.TeleBot(TOKEN)
-OWNER_USER_ID = 7778453512  # Ganti dengan user_id asli @Falzreal
+OWNER_USER_ID = 7250971800  # Ganti dengan user_id asli @Falzreal
 
 # ----- 
 def command_case_insensitive(command_list):
@@ -1386,7 +1386,7 @@ sewa_orders = {}
 sewabot_map = {}
 payment_map = {}
 
-OWNER_ID = 7778453512  
+OWNER_ID = 7250971800  
 HARGA_SEWA = {"1bulan": 10000, "permanen": 20000}  # integer biar aman
 QRIS_URL = "https://files.catbox.moe/9p7yws.jpg"
 
@@ -2777,7 +2777,7 @@ def callback_showid(call):
 
 # ========== MENU PROTEKSI ==========
 # Owner ID dan settings global
-OWNER_ID = 7778453512
+OWNER_ID = 7250971800
 anti_settings = {}   # tempat simpan setting per grup
 
 # ========== UTIL ==========
